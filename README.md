@@ -11,8 +11,11 @@ O sistema foi desenvolvido na linguagem **C** e utiliza estruturas de dados clá
 O **8-Puzzle** é um jogo de raciocínio composto por um tabuleiro **3x3**, contendo oito peças numeradas e um espaço vazio (representado por **X**). O objetivo é organizar as peças na ordem correta realizando movimentos válidos.
 
 Estado final esperado:
+
 | 1 | 2 | 3 |
+
 | 4 | 5 | 6 |
+
 | 7 | 8 | X |
 
 
@@ -139,9 +142,13 @@ pilha.h
 # 🧩 Estrutura do Projeto
 8-puzzle/
 │
+
 ├── 8puzzle.c # Arquivo principal do programa
+
 ├── fila.h # Implementação da estrutura de dados Fila
+
 ├── pilha.h # Implementação da estrutura de dados Pilha
+
 └── README.md
 
 
@@ -163,6 +170,7 @@ Esses algoritmos permitem resolver automaticamente o puzzle a partir de qualquer
 ### Compilação
 
 Utilize o **gcc** para compilar o programa:
+
 gcc 8puzzle.c -o puzzle
 
 
@@ -219,5 +227,5 @@ no curso de **Ciência de Dados e Inteligência Artificial** da **Pontifícia Un
 
 - Bárbara Lima  
 - Emily Delgado  
-- Isabel Baungartner  
-- Julia Leandro
+- [Isabel Baungartner](https://www.linkedin.com/in/isabel-baungartner-78a573296/)
+- [Julia Leandro](www.linkedin.com/in/juliasleandro)  
